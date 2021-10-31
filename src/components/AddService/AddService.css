@@ -1,0 +1,17 @@
+.add-service form {
+    background-color: rgb(41, 66, 39);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    padding-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: ;
+}
+.add-service form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+}

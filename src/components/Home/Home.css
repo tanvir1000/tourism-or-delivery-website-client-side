@@ -1,0 +1,25 @@
+.btn denger{
+    background-color: rgb(194, 122, 122);
+
+
+}
+.header{
+    text-align: center;
+}
+#a{
+    text-align: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 120px;
+}
+
+.link-button{
+    text-decoration: none;
+    /* background-color: rgb(155, 42, 165); */
+    background-color: bisque;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 40px;
+    margin-top: 200px;
+    margin: 20px;
+}
