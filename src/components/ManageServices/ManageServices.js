@@ -4,12 +4,12 @@ const ManageServices = () => {
     const [services, setServices] = useState([])
 
         useEffect(() => {
-            fetch('http://localhost:5000/services')
+            fetch('http:https://howling-broomstick-61781.herokuapp.com/services')
                 .then(res => res.json())
                 .then(data => setServices(data))
         }, [])
         const handelDelete = id => {
-            const url = `http://localhost:5000/${id}`;
+            const url = `https://howling-broomstick-61781.herokuapp.com/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

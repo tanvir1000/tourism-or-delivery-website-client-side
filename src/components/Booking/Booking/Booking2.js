@@ -6,7 +6,7 @@ const Booking2 = () => {
     const [packages, setAcademics] = useState({})
 
     useEffect(() => {
-        fetch(`http://localhost:5000/packages/${id}`)
+        fetch(`https://howling-broomstick-61781.herokuapp.com/packages/${id}`)
         .then(res => res.json())
         .then(data => setAcademics(data));
     }, [])
