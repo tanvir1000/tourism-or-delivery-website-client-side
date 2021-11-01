@@ -9,7 +9,7 @@ const ManageServices = () => {
                 .then(data => setServices(data))
         }, [])
         const handelDelete = id => {
-            const url = `http://localhost:5000/services/${id}`;
+            const url = `http://localhost:5000/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })
