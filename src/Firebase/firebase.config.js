@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDKsAFZ_1xI3lKIIBucUPKRRDhBLAI1oiQ",
-    authDomain: "react-dental-authentication.firebaseapp.com",
-    projectId: "react-dental-authentication",
-    storageBucket: "react-dental-authentication.appspot.com",
-    messagingSenderId: "849450098420",
-    appId: "1:849450098420:web:ecded98623cf4c396508a1"
-  };
+  apiKey: "AIzaSyAXRoZxl_G0Zp5OLDr2SpjnyLRBKXzgOgw",
+  authDomain: "simple-firebase-auth-b5cf7.firebaseapp.com",
+  projectId: "simple-firebase-auth-b5cf7",
+  storageBucket: "simple-firebase-auth-b5cf7.appspot.com",
+  messagingSenderId: "783365946559",
+  appId: "1:783365946559:web:264651a6dd3da4c020da0a"
+};
 
   export default firebaseConfig;
